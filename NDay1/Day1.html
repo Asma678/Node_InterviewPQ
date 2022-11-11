@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1</title>
+</head>
+<body>
+    <h1>What is node.js?</h1>
+
+    <p>Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.
+
+        Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.</p>
+
+    <hr><br>
+
+    <h1>
+        What is NPM?
+    </h1>
+
+    <p>npm is the world's largest Software Registry. The registry contains over 800,000 code packages. Open-source developers use npm to share software. Many organizations also use npm to manage private development.</p>
+
+    <p>We can use NPM to:</p>
+    <ul>
+        <li>Adapt packages of code for your apps, or incorporate packages as they are.</li>
+        <li>Create organizations to coordinate package maintenance, coding, and developers.
+        </li>
+        <li>Restrict code to specific developers.</li>
+        <li>Download standalone tools you can use right away.</li>
+        <li>Share code with any npm user, anywhere.</li>
+    </ul>
+
+    <hr><br>
+
+    <h1>What are modules in Node.js?</h1>
+
+    <p>In Node.js, Modules are the blocks of encapsulated code that communicates with an external application on the basis of their related functionality. Modules can be a single file or a collection of multiples files/folders. The reason programmers are heavily reliant on modules is because of their re-usability as well as the ability to break down a complex piece of code into manageable chunks</p>
+
+    <hr><br>
+
+    <h1>What is the purpose of modules.export?</h1>
+
+    <p>Module.exports is the instruction that tells Node. js which bits of code (functions, objects, strings, etc.) to “export” from a given file so other files are allowed to access the exported code. 
+        The module.exports is actually a property of the module object in node.js. module. Exports is the object that is returned to the require() call.
+         By module.exports, we can export functions, objects, and their references from one file and can use them in other files by importing them by require() method. easy to maintain and manage the code base in different modules. 
+        </p>
+    <b><mark>5.Difference between default export and named export</mark></b></p>
+
+
+    <hr><br>
+
+    <h1>Differnce Between named and default export?</h1>
+    <p> Named Exports: Named exports are useful to export several values. 
+        During the import, it is mandatory to use the same name of the corresponding object.
+        Named exports allow us to share multiple objects, functions or variables from a single file and were introduced with the release of ES2015.
+        Named exports are way of exporting the objects by some specific name, while importing we need to mention their exact name to get them.</p>
+    <p>  Default Exports: Default exports are useful to export only a single object, function, variable. During the import, we can use any name to import.Exports without a default tag are Named exports. Exports with the default tag are Default exports.
+        default export:- Using Named and Default Exports at the same time: It is possible to use Named and Default exports in the same file. It means both will be imported in the same file. Example: javascript.
+        Default export are easier to work with as there is no specific name required to access while importing the files. we can directly import them using any name and use them</p>
+
+
+    <hr><br>
+
+
+    <h1>How do you import any module in Node.js?</h1>
+    <p>We can import in Node.js by using require("address") method.</p>
+</body>
+
+</html>
