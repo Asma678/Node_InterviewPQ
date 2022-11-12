@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day2</title>
+</head>
+<body>
+    <h1>What are the different types of HTTP requests?</h1>
+
+    <p>GET: GET request is used to read/retrieve data from a web server. GET returns an HTTP status code of 200 (OK) if the data is successfully retrieved from the server. POST: POST request is used to send data (file, form data, etc.) to the server.DELETE: A DELETE request is used to delete the data on the server at a specified location. .PUT: A PUT request is used to modify the data on the server. It replaces the entire content at a particular location with data that is passed in the body payload.PATCH: PATCH is similar to PUT request, but the only difference is, it modifies a part of the data. It will only replace the content that you want to update.</p>
+
+    <hr><br>
+
+    <h1>
+        Explain the concept of middleware in Node.js.?
+    </h1>
+
+    <p>The middleware in node. js is a function that will have all the access for requesting an object, responding to an object, and moving to the next middleware function in the application request-response cycle.</p>
+
+
+    <h1>Explain CORS</h1>
+    <p>
+        Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
+    </p>
+   
+
+    <hr><br>
+
+    <h1>What is Express. how it helps you to create a backend application?</h1>
+
+    <p>Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications. It facilitates the rapid development of Node based Web applications. Following are some of the core features of Express framework −
+
+        Allows to set up middlewares to respond to HTTP Requests.
+        
+        Defines a routing table which is used to perform different actions based on HTTP Method and URL.
+        
+        Allows to dynamically render HTML Pages based on passing arguments to templates.</p>
+        <p>  <p>Express is the most popular minimalistic framework. It is built upon the built-in module HTTP of NodeJS to facilitate the simple and easy interaction between frontend and backend logic through API, and also it enables us to organize our business logic in so much pretty manner. It is much flexible and we can use it for both the web and android. Also, it provides a very simple error handling procedure.</p>
+
+        <hr></p>
+
+    <hr><br>
+
+    <h1>Explain min 5 status codes gets used in Backend development?</h1>
+
+
+    <p>100-199 for information response,
+      200-299 for successful response, 
+      300-399 for  redirect ,  
+      400-499 for client error , 
+      500-599 for server error
+    </p>
+    <ul>
+        <li>200 Ok:
+            This response status code indicates that our request was successful. This is used mostly when we request for data from the server and it responds with the data. When you visit the link to a webpage, the browser sends a request to the server to give it the contents of that webpage</li>
+        <li>204 No Content:
+            This response code tells the client not to change the current document presented to the user. Header information might be updated, but no new content will be sent along.
+            
+            This response can be sent after a client makes a request updating a resources on the server and the server does not need to return any data since nothing new was created. The server must never return a response body when it sends a 204 - No Content status code.</li>
+        <li>404 Not Found:
+            If you have used the web frequently, you will definitely have run into this, especially 404 Page Not Found. In API terms, it means the resource you are trying to access was not found or the endpoint itself does not exist. A description of the error might accompany the error, but do not count on this in most cases.</li>
+        <li>403 Forbidden:
+            This error occurs when a client tries to access a resource it is not permitted to. This is not the same as 401 Unauthorized. An authenticated client can be Forbidden from accessing a resource just as an unauthenticated client can.</li>
+        <li>401 Unauthorized:
+            This response in simple terms means the client needs to authenticate itself before it completes the request. Authentication here could be providing access-token in the case of OAuth or Authorization token in the case of jwt based auth system or even API keys.</li>
+    </ul>
+   
+    <hr><br>
+
+    <h1>Difference between HTTP and HTTPS?</h1>
+    <p> HTTPS is HTTP with encryption and verification. The only difference between the two protocols is that HTTPS uses TLS (SSL) to encrypt normal HTTP requests and responses, and to digitally sign those requests and responses. As a result, HTTPS is far more secure than HTTP. A website that uses HTTP has http:// in its URL, while a website that uses HTTPS has https://.
+    </p>
+   
+
+    <hr><br>
+
+
+    <h1>What are JWT tokens?</h1>
+    <p>A JSON web token(JWT) is JSON Object which is used to securely transfer information over the web(between two parties). It can be used for an authentication system and can also be used for information exchange. The token is mainly composed of header, payload, signature. These three parts are separated by dots(.).</p>
+</body>
+
+</html>
